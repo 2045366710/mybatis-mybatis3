@@ -148,4 +148,8 @@ public class JdbcTransaction implements Transaction {
     return null;
   }
 
+  public static void main(String[] args) {
+    System.out.println(111);
+  }
+
 }
