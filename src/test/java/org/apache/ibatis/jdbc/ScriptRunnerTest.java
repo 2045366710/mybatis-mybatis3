@@ -287,4 +287,8 @@ class ScriptRunnerTest extends BaseDataTest {
     verify(stmt, Mockito.times(1)).execute(eq("line 1;" + LINE_SEPARATOR + "line 2;" + LINE_SEPARATOR + LINE_SEPARATOR));
     verify(stmt, Mockito.times(1)).execute(eq("line 3" + LINE_SEPARATOR));
   }
+
+  public static void main(String[] args) {
+    System.out.println(11111);
+  }
 }
